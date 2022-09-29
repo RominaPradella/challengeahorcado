@@ -1,0 +1,240 @@
+/* CONFIGURACION */
+
+body{
+    background-color: #E5E5E5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.logoahorcado{
+    width: 50px;
+    height: 50px;
+}
+
+/* BOTONES DE INICIO*/
+
+.btns{
+    margin-top: 150px;
+    margin-left: 400px;
+    align-items: center;
+}
+
+.btninicio{
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+    margin: 24px;
+    font-size: 15px;
+    color: #E5E5E5;
+    background-color: #0A3871;
+    border-color: #0A3871;
+}
+
+.btninicio:hover{
+    cursor: pointer;
+}
+
+.btnagregar{
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+    margin: 24px;
+    font-size: 15px;
+    color: #0A3871;
+    background-color:#E5E5E5;
+    border-color: #0A3871;
+}
+
+.btnagregar:hover{
+    cursor: pointer;
+}
+
+
+/* AGRGAR NUEVA PALABRA*/ 
+
+.nuevapalabra{
+    margin-top: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.area{
+    width: auto;
+    height: 512px;
+}
+
+.texto{
+    width:400px;
+    height: 30px;
+    font-size: 15px;
+    color:  #0A3871;
+    border-color: #0A3871;
+    margin-left: 50px;
+}
+
+.advertencia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    color:slategray;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.advertencia img{
+    width: 45px;
+    margin-right: 5px;
+}
+
+.btnAgregarElemento{
+    width: 200px;
+    height: 60px;
+    color:#E5E5E5;
+    border-radius: 24px;
+    margin: 24px;
+    background-color: #0A3871;
+    font-size: 15px;
+    border: none;
+    margin-left: 50px;
+}
+
+.btnAgregarElemento:hover{
+    cursor: pointer;
+}
+
+.btnCancelar{
+    width: 200px;
+    height: 60px;
+    font-size: 165px;
+    color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-size: 15px;
+}
+
+.btnCancelar:hover{
+    cursor: pointer;
+}
+
+/* JUEGO */ 
+
+.disenio{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grafico{
+    width: 294px;
+    height: 360px;
+}
+
+.iniciar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.letrascorrectas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 15px;
+    color: #0A3871;
+}
+
+.letra{
+    text-align: center;
+    width: 35px;
+}
+
+.guiones{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #0A3871;
+}
+
+.guion{
+    width: 30px;
+    height: 3px;
+    background-color: #0A3871;
+    border-radius: 8px;
+}
+
+.letrasincorrectas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 15px;
+    color: #0A3871;
+}
+
+.letraincorrecta{
+    padding: 0 5px;
+}
+
+.msj{
+    margin: 20px;
+    font-size: 15px;
+}
+
+.btnjuego{
+    display: inline-block;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+}
+
+.btnnuevapalabra{
+    width: 80%;
+    max-width: 332px;
+    height: 67px;
+    width: 200px;
+    height: 60px;
+    color:#E5E5E5;
+    border: none;
+    border-radius: 24px;
+    background-color: #0A3871;
+    font-size: 15x;
+    margin-left: 50px;
+}
+
+.btnnuevapalabra:hover{
+    cursor: pointer;
+}
+
+.btnabandonar{
+    width: 200px;
+    height: 60px;
+    color:  #0A3871;
+    border-color: #0A3871;
+    border-radius: 24px;
+    background-color:#E5E5E5;
+    font-size: 15x;
+    margin-left: 50px;
+}
+
+.btnabandonar:hover{
+    cursor: pointer;
+}
+
+footer{
+    font-size: 10px;
+    color:black;
+    font-style: oblique;
+    padding-top: 30px;
+}

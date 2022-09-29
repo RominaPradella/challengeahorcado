@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="imagenes/ahorcado.png">
+    <title> Juego del Ahorcado</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+
+<body>
+
+    <!--ENCABEZADO-->
+
+    <header>
+        <img src="imagenes/logo.png" alt="Logo Alura">
+    </header>
+
+    <!--INICIO-->
+
+    <section class="btns">
+        <button class="btninicio">Iniciar juego</button>
+        <button class="btnagregar">Agregar nueva palabra</button>
+    </section>
+
+    <!--NUEVA PALABRA-->
+
+    <section class="nuevapalabra">
+        <section class="area">
+            <input type="text" id="texto" class= "texto" placeholder="Ingrese la nueva palabra"></input>
+                <section>
+                    <h5 class="advertencia"><i><img src="./imagenes/advertencia.png" alt="Alerta"></i>Sólo 8 letras máx - Usar MAYUSCULAS - No incluir acentos ni caracteres especiales</h5>
+                    <section class="btn-agregar-palabra">
+                        <input type="button" id="btnAgregarElemento" class="btnAgregarElemento" value="Agregar y comenzar" onclick="agregarPalabra();"></input>
+                        <!--<input type="button" id="btnMostrarArreglo" value="Mostrar palabras" onclick="mostrarArreglo();"></input>-->
+                        <input type="button" id="btnCancelar" class="btnCancelar" value="Salir" onclick="volverInicio();"></input>
+                        <br>
+                        <!--<div id="resultado"></div>-->
+                        <br>
+                    </section>
+                </section>
+        </section>
+    </section>
+    
+    <!--INICIAR JUEGO-->
+
+    <section class="disenio">
+        <section class="grafico">
+            <canvas id="juego" height="360px" width="294px"></canvas>
+        </section>
+
+        <section class="iniciar">
+            <section class="letrascorrectas"></section>
+                <section class="guiones">
+                    <span class="guion guion-1"></span>
+                    <span class="guion guion-2"></span>
+                    <span class="guion guion-3"></span>
+                    <span class="guion guion-4"></span>
+                    <span class="guion guion-5"></span>
+                    <span class="guion guion-6"></span>
+                    <span class="guion guion-7"></span>
+                    <span class="guion guion-8"></span>
+                </section>
+            <section class="letrasincorrectas"></section>
+        </section>
+                
+        <section class="msj"></section>
+            
+        <section class="btnjuego">
+                <button class="btnnuevapalabra">Cambiar palabra</button>
+                <button class="btnabandonar">Abandonar juego</button>
+        </section>
+
+        <!--PIE DE PAGINA-->    
+
+        <section>
+                <footer>
+                    © Juego del Ahorcado realizado por Romina Pradella para Alura One - Argentina 2022
+                </footer>
+        </section>
+
+    <!--SCRIPT-->
+
+    <script src="script/canvas.js"></script>
+    <script src="script/dibujarhorca.js"></script>
+    <script src="script/agregarpalabra.js"></script>
+
+
+
+</body >
+
+  
+
+</html>
